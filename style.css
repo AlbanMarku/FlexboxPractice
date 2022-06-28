@@ -14,12 +14,10 @@ body {
     background-color: #1F2937;
     padding: 20px;
     align-items: center;
-
 }
 
-/* .box1 {
-
-} */
+.box1 {
+}
 
 .box2 {
     margin-left: auto;
@@ -35,6 +33,27 @@ body {
     color: #E5E7EB;
     font-size: 18px;
     text-decoration: none;
-    padding: 0px 30px;
+    margin: 0px 30px;
+}
+
+/* Section two */
+
+.welcomeSection {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.contentText {
+}
+
+.contentImage {
+   
+}
+
+.contentImage img {
+    width: 300px;
+    margin: 0px 30px;
 }
 
