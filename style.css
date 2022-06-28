@@ -42,14 +42,34 @@ body {
     display: flex;
     background-color: #1F2937;
     justify-content: space-between;
-    padding: 20px;
+    padding: 20px 20px 50px 20px;
+
+}
+
+.contentText h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    margin: 0px;
+}
+
+.contentText p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.contentText button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5px 10px;
 }
 
 .contentText {
 }
 
 .contentImage {
-   
 }
 
 .contentImage img {
