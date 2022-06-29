@@ -1,39 +1,45 @@
-html {
+* {
     box-sizing: border-box;
   }
-  *, *::before, *::after {
-    box-sizing: inherit;
-  }
+
 
 body {
     margin: 0px;
+    background-color: #1F2937;
+}
+
+.main {
+    margin: 0 auto;
+    width: 70%;
 }
 
 .navbar {
     display: flex;
     background-color: #1F2937;
-    padding: 20px;
-    align-items: center;
+    padding: 20px 0px;
+    justify-content: space-between;
+    align-items: center;    
 }
+
+
 
 .box1 {
 }
 
 .box2 {
-    margin-left: auto;
 }
 
 .navbar header {
     color: #F9FAF8;
     font-size: 24px;
-    flex: 1;
+    
 }
 
 .navbar a {
     color: #E5E7EB;
     font-size: 18px;
     text-decoration: none;
-    margin: 0px 30px;
+    padding: 0px 0px 0px 20px;
 }
 
 /* Section two */
@@ -42,8 +48,8 @@ body {
     display: flex;
     background-color: #1F2937;
     justify-content: space-between;
-    padding: 20px 20px 50px 20px;
-
+    padding: 20px 0px;
+    align-items: center;
 }
 
 .contentText h1 {
@@ -67,13 +73,14 @@ body {
 }
 
 .contentText {
+    max-width: 30%;
+    
 }
 
 .contentImage {
 }
 
 .contentImage img {
-    width: 300px;
-    margin: 0px 30px;
+    max-width: 500px;
 }
 
