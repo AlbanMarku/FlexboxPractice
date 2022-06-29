@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
   }
 
 
@@ -11,7 +12,6 @@ body {
 .main {
     max-width: 1300px;
     margin: 0px auto;
-    
 }
 
 .navbar {
@@ -49,6 +49,7 @@ body {
     justify-content: space-between;
     padding: 20px 0px;
     align-items: center;
+    height: 100vh;
 }
 
 .contentText h1 {
@@ -88,37 +89,53 @@ body {
 .sectionTitle , .infoArea{
     display: flex;
     background-color: white;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    
+    column-gap: 100px;
+    row-gap: 10px;
+    flex-wrap: wrap;
 }
 
 .sectionTitle h2 {
-    margin: 20px;
+    margin: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .containerBox {
-    max-width: 100px;
-    border: 5px solid blue;
-
+    width: 200px;
 }
 
 .infoBox {
+    border: 5px solid #3882F6;
+    border-radius: 10px;
     min-height: 100px;
-
-   
-    border: 5px solid red;
 }
 
 .infoText {
-    min-height: 400px;
-    border: 5px solid orange;
-    
-    
-
+    text-align: center;
 }
 
 p {
-    border: 5px solid red;
     overflow-wrap: anywhere;
+}
+
+/*Section four*/
+
+.quoteArea {
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+}
+
+.quoteText {
+    max-width: 700px;
+    margin: 0px auto;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.reference {
+    text-align: right;
+    margin: 0px 200px 20px 0px;
 }
