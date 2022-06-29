@@ -104,6 +104,7 @@ body {
 
 .containerBox {
     width: 200px;
+    margin-bottom: 40px;
 }
 
 .infoBox {
@@ -128,14 +129,57 @@ p {
     flex-direction: column;
 }
 
+.quoteBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .quoteText {
     max-width: 700px;
-    margin: 0px auto;
     font-size: 36px;
     font-style: italic;
 }
 
 .reference {
-    text-align: right;
-    margin: 0px 200px 20px 0px;
+    margin: 0px 200px 40px auto;
+}
+
+/*Section five*/
+
+.promotionArea {
+    padding: 100px 0px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.promoContent {
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.promoText {
+    flex: 2;
+}
+
+.signUp {   
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.btn button {
+    color: white;
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px 40px;
 }
