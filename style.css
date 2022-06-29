@@ -183,3 +183,11 @@ p {
     border-radius: 10px;
     padding: 10px 40px;
 }
+
+/*Section six*/
+
+.footerArea {
+    text-align: center;
+    color: white;
+    padding: 40px;
+}
