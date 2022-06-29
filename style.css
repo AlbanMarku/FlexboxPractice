@@ -22,12 +22,6 @@ body {
     align-items: center;
 }
 
-.box1 {
-}
-
-.box2 {
-}
-
 .navbar header {
     color: #F9FAF8;
     font-size: 24px;
@@ -75,9 +69,6 @@ body {
 .contentText {
     max-width: 30%;
     
-}
-
-.contentImage {
 }
 
 .contentImage img {
